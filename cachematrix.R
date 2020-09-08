@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Function: cacheSolve(x,...)
 ## The function receives a list object created by the makeCacheMatrix function and returns the inverse of the matrix. If the matrix
 ## is the same one as the last matrix recieved when the function was called, then, it gets its inversed from the value m from
-## the makeCacheMatrix function environment. If the matrxi is not the same as the last one received (or if it is the first call) then it calculates its inverse
+## the makeCacheMatrix function environment. If the matrix is not the same as the last one received (or if it is the first call) then it calculates its inverse
 ## it calculates the inverse of the matrix using the solve function. After calculating the inverse it stores the result 
 ## in the variable m of the makeCacheMatrix environment.
 
